@@ -16,10 +16,10 @@ export default function Footer() {
               Read Documentation
             </a>
             <a
-              href="https://github.com/datocms/nextjs-demo"
+              href="https://gravith.dk"
               className="mx-3 font-bold hover:underline"
             >
-              View on GitHub
+              View on Gravith.dk damn it!!!
             </a>
           </div>
         </div>
