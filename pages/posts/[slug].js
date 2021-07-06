@@ -69,6 +69,10 @@ export async function getStaticProps({ params, preview = false }) {
           slug
           excerpt
           date
+          category {
+            name
+            slug
+            }
           coverImage {
             responsiveImage(imgixParams: {fm: jpg, fit: crop, w: 2000, h: 1000 }) {
               ...responsiveImageFragment
